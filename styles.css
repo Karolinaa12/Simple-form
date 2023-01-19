@@ -4,11 +4,30 @@ body {
   justify-items: center;
 }
 
+form {
+  background: #f8f4e5;
+}
+
 input {
   display: block;
   margin: 20px;
 }
 
 button {
-  margin: 20px;
+  display: block;
+  margin: 0 auto;
+  line-height: $font-size * 2;
+  padding: 0 20px;
+  background: #ffa580;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px 1px #95a4ff, 3px 3px 1px 2px rgba(0, 0, 0, 1);
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
 }
