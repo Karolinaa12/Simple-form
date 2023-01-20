@@ -18,13 +18,17 @@ form {
 
 input {
   font-family: "Fjalla One", sans-serif;
+  font-size: 18px;
+  width: 100%;
   display: block;
-  appearance: none;
+  outline: none;
   border: none;
   border-bottom: 5px solid rgba(0, 0, 0, 1);
   background: #f8f4e5;
   color: rgba(0, 0, 0, 1);
-  margin: 20px;
+  margin-bottom: 36px;
+  padding-left: 5px;
+  min-width: 250px;
 }
 input:focus {
   border-bottom: 5px solid #ffa580;
