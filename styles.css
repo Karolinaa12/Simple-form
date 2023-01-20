@@ -38,7 +38,7 @@ button {
   font-family: "Fjalla One", sans-serif;
   display: block;
   margin: 0 auto;
-  line-height: $font-size * 2;
+  line-height: 36px;
   padding: 0 20px;
   background: #ffa580;
   letter-spacing: 2px;
@@ -52,4 +52,8 @@ button:hover {
   background: rgba(0, 0, 0, 1);
   color: white;
   border: 1px solid rgba(0, 0, 0, 1);
+}
+
+::selection {
+  background: #ffc8ff;
 }
